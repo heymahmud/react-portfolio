@@ -6,13 +6,22 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
+import NotFound from './components/NotFound/NotFound';
 
 function App() {
   return (
     <div className="App">
       <Router>
-        <Home/>
+        
         <Switch>
+
+          <Route exact path="/">
+            <Home/>
+          </Route>
+
+          <Route path="*">
+            <NotFound/>
+          </Route>
 
         </Switch>
       </Router>

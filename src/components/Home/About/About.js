@@ -21,7 +21,10 @@ const About = () => {
                         <p>I specialize in HTML/CSS and JavaScript on the front end. However, I'm fairly comfortable with ReactJS, NodeJS, MongoDB, Firebase, WordPress, and Shopify.</p>
 
                         <div className="action pt-3">
-                            <button className="button resume me-3">Get Resume</button>
+                            <a target="_blank" rel="noreferrer noreferrer" href="https://github.com/AmirMostofaa/react-portfolio/blob/main/src/Utility/amirCV.pdf">
+                                <button className="button resume me-3">Get Resume</button>
+                            </a>
+                            
                             <a href="#skill">
                                 <button className="button">My Skills</button>
                             </a>

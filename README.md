@@ -1,4 +1,4 @@
 # My Portfolio 🔥🔥🔥
 
-[LIVE🔥](https://github.com/facebook/create-react-app).
+## [LIVE🔥](https://amirmostofaa.netlify.app/)
 
