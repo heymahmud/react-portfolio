@@ -1,0 +1,24 @@
+.footer {
+    background-color: #1F2833;
+    position: relative;
+}
+.footer-txt p {
+    color: whte;
+}
+.footer-txt a {
+    color: yellow;
+    text-decoration: none;
+}
+.toTop {
+    position: absolute;
+    right: 40px;
+    bottom: 50px;
+    background-color: yellow;
+    padding: 8px 12px;
+    border-radius: 8px;
+    display: inline-block;
+    filter: drop-shadow(2px 2px 10px #5a6b81);
+}
+.toTop i {
+    color: black;
+}

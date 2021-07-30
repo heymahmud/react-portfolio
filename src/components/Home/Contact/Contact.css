@@ -1,0 +1,13 @@
+.contact-details {
+    /* margin-top: -10px; */
+}
+.contact-details h2 {
+    font-family: 'Lato',
+    sans-serif;
+    color: white;
+    line-height: .5;
+    font-size: 28px;
+}
+.contact p {
+    line-height: 1.6;
+}

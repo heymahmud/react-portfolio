@@ -1,0 +1,24 @@
+.progress-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px;
+}
+.progress {
+    background-color: transparent;
+    height: 8px;
+}
+.percent {
+    background-color: yellow;
+    color: black;
+    padding: 2px 4px;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+.skill {
+    padding: 15px 0px 0px;
+    margin-bottom: 30px;
+    /* margin-left: 10px; */
+}

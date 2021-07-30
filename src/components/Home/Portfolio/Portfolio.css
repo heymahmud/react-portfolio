@@ -1,0 +1,45 @@
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -17px
+}
+.single-port {
+    background-color: #1F2833;
+    border-radius: 8px;
+    width: 30.5%;
+    margin: 1rem;
+}
+.single-port img {
+    border-radius: 8px 8px 0px 0px;
+}
+.portfolio-details h4 {
+    color: #66FCF1;
+}
+.project-links a {
+    color: #66FCF1;
+    font-size: 20px;
+    transition: color .3s ease-in-out;
+}
+.portfolio-details span {
+    color: #45A29E;
+}
+.project-links a:hover {
+    color: yellow
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .single-port {
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .single-port {
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .single-port {
+        width: 100%;
+    }
+}
