@@ -1,16 +1,28 @@
 const projects = [
     {
         id: 1,
-        name: "Carserv | Auto Repair",
-        description: "A Full-stack Car Auto Repair Webapp where we can add Orders, Services, testimonials, Team members. and We can Manage everything",
-        github: "https://github.com/AmirMostofaa/carserv-client",
-        live: "https://carserv-76.web.app/",
-        img: "https://i.ibb.co/9vnFr31/1.jpg",
+        name: "Netflix clone",
+        description: "Netflix clone using React JS, React Movie Trailer, React Youtube",
+        github: "https://github.com/AmirMostofaa/netflix-clone",
+        live: "https://netflix-clone-by-amir.web.app/",
+        img: "https://i.ibb.co/LdN99X2/Untitled-design.jpg",
         tech1: "React",
-        tech2: "Express JS",
-        tech3: "MongoDB",
-        tech4: "Firebase, Heroku"
+        tech2: "React Youtube",
+        tech3: "React Movie Trailer",
+        tech4: "Firebase"
     },
+    // {
+    //     id: 1,
+    //     name: "Carserv | Auto Repair",
+    //     description: "A Full-stack Car Auto Repair Webapp where we can add Orders, Services, testimonials, Team members. and We can Manage everything",
+    //     github: "https://github.com/AmirMostofaa/carserv-client",
+    //     live: "https://carserv-76.web.app/",
+    //     img: "https://i.ibb.co/9vnFr31/1.jpg",
+    //     tech1: "React",
+    //     tech2: "Express JS",
+    //     tech3: "MongoDB",
+    //     tech4: "Firebase, Heroku"
+    // },
     {
         id: 2,
         name: "Ogani | Grocery Shop",
