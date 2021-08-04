@@ -2,10 +2,10 @@ const projects = [
     {
         id: 1,
         name: "Netflix clone",
-        description: "Netflix clone using React JS, React Movie Trailer, React Youtube",
+        description: "Netflix clone using React JS, React Movie Trailer, React Youtube with Fully Mobile Responsive",
         github: "https://github.com/AmirMostofaa/netflix-clone",
         live: "https://netflix-clone-by-amir.web.app/",
-        img: "https://i.ibb.co/LdN99X2/Untitled-design.jpg",
+        img: "https://i.ibb.co/wsgvMHk/netflix-min.jpg",
         tech1: "React",
         tech2: "React Youtube",
         tech3: "React Movie Trailer",
