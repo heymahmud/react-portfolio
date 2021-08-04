@@ -28,4 +28,7 @@ a.nav-link button:hover {
         color: rgb(236 251 14 / 55%);
         border-color: rgb(224 249 19 / 10%);
     }
+    a.nav-link.mt-2.me-4 {
+        margin-right: 0px !important;
+    }
 }
