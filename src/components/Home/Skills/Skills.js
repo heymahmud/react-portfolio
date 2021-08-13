@@ -50,7 +50,18 @@ const Skills = () => {
                     <div className="col-md-6">
                         <div className="skill bg-color2 rounded">
                             <div className="progress-title text-color2">
-                                <h4>Javascript</h4>
+                                <h4>Bootstrap</h4>
+                                <p className="percent">90%</p>
+                            </div>
+                            <div className="progress">
+                                <div style={{width:'90%'}} className="progress-bar bg-warning " role="progressbar"  aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-md-6">
+                        <div className="skill bg-color2 rounded">
+                            <div className="progress-title text-color2">
+                                <h4>Tailwind CSS</h4>
                                 <p className="percent">80%</p>
                             </div>
                             <div className="progress">
@@ -61,7 +72,18 @@ const Skills = () => {
                     <div className="col-md-6">
                         <div className="skill bg-color2 rounded">
                             <div className="progress-title text-color2">
-                                <h4>React</h4>
+                                <h4>Javascript</h4>
+                                <p className="percent">75%</p>
+                            </div>
+                            <div className="progress">
+                                <div style={{width:'75%'}} className="progress-bar bg-warning " role="progressbar"  aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-md-6">
+                        <div className="skill bg-color2 rounded">
+                            <div className="progress-title text-color2">
+                                <h4>React JS</h4>
                                 <p className="percent">85%</p>
                             </div>
                             <div className="progress">
