@@ -23,7 +23,7 @@ const Navbar = () => {
                             <a className="nav-link mt-2 me-4" href="#skill">SKILL</a>
                             <a className="nav-link mt-2 me-4" href="#portfolio">PORTFOLIO</a>
                             <a className="nav-link mt-2 me-4" href="#contact">CONTACT</a>
-                            <a className="nav-link" rel="noreferrer noreferrer" target="_blank" href="https://github.com/AmirMostofaa/react-portfolio/blob/main/src/Utility/AmirMostofaa-Front-end-developer.pdf">
+                            <a className="nav-link" rel="noreferrer noreferrer" target="_blank" href="https://github.com/iammostafa76/react-portfolio/blob/main/src/Utility/MostafaMahmud-FrontEndDeveloper.pdf">
                                 <button className="button">Resume</button>
                             </a>
                             
