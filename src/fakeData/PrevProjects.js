@@ -2,7 +2,7 @@ const projects = [
     {
         id: 1,
         name: "Carserv | Auto Repair",
-        description: "A MERN-Stack Car Auto Repair Webapp where we can add Orders, Services, testimonials, Team members. and We can Manage everything also Team has All the Rules. Customer can Make order and Check the Order List",
+        description: "A MERN-Stack Car Auto Repair Webapp with Fully Responsive where we can add Orders, Services, testimonials, Team members. and We can Manage everything also Team has All the Rules. Customer can Make order and Check the Order List",
         github: "https://github.com/AmirMostofaa/carserv-client",
         live: "https://carserv-76.web.app/",
         img: "https://i.ibb.co/R4TC7r7/carserv.png",
@@ -12,9 +12,21 @@ const projects = [
         tech4: "Firebase, Heroku"
     },
     {
+        id: 12,
+        name: "Amir | Photography Service",
+        description: "A MERN-Stack Photography Service Web app with Fully Responsive where we can Make Orders, Services and We can Manage everything as a Admin. Customer can Make order and Check the Previous Order List",
+        github: "https://github.com/iammostafa76/amir_making_memories-client",
+        live: "https://amir-mking-memories.web.app/",
+        img: "https://i.ibb.co/6XDhQXT/photography.png",
+        tech1: "TailwindCSS, React",
+        tech2: "Express JS",
+        tech3: "MongoDB",
+        tech4: "Firebase, Heroku"
+    },
+    {
         id: 2,
         name: "Ogani | Grocery Shop",
-        description: "An MERN-Stack online Grocery shop where We can make orders, check the order List.also, we can add Products on Site and Manage the products. Customer can check their previous orders",
+        description: "An MERN-Stack online Grocery shop with Fully Responsive where We can make orders, check the order List.also, we can add Products on Site and Manage the products. Customer can check their previous orders",
         github: "https://github.com/AmirMostofaa/ogani-client",
         live: "https://ogani-d469b.web.app/",
         img: "https://i.ibb.co/Dw38w8v/ogani.png",
@@ -29,7 +41,7 @@ const projects = [
         description: "Netflix clone using React JS, React Movie Trailer, React Youtube with Fully Mobile Responsive. Also instantly we can watch the available movie trailer",
         github: "https://github.com/AmirMostofaa/netflix-clone",
         live: "https://netflix-clone-by-amir.web.app/",
-        img: "https://i.ibb.co/wsgvMHk/netflix-min.jpg",
+        // img: "https://i.ibb.co/wsgvMHk/netflix-min.jpg",
         tech1: "React",
         tech2: "React Youtube",
         tech3: "React Movie Trailer",
@@ -71,18 +83,18 @@ const projects = [
     //     tech3: "Github page",
     //     tech4: "JS DOM"
     // },
-    {
-        id: 6,
-        name: "Team Building",
-        description: "A team building App with players of Bangladesh Cricket Team, You can Select your player with Yearly Salary.", 
-        github: "https://github.com/AmirMostofaa/team-build",
-        live: "https://team-build-76.netlify.app/",
-        // img: "https://i.ibb.co/SV4HTf5/team.jpg",
-        tech1: "React",
-        tech2: "React-Bootstrap",
-        tech3: "Netlify",
-        tech4: "Font awesome"
-    },
+    // {
+    //     id: 6,
+    //     name: "Team Building",
+    //     description: "A team building App with players of Bangladesh Cricket Team, You can Select your player with Yearly Salary.", 
+    //     github: "https://github.com/AmirMostofaa/team-build",
+    //     live: "https://team-build-76.netlify.app/",
+    //     // img: "https://i.ibb.co/SV4HTf5/team.jpg",
+    //     tech1: "React",
+    //     tech2: "React-Bootstrap",
+    //     tech3: "Netlify",
+    //     tech4: "Font awesome"
+    // },
     // {
     //     id: 7,
     //     name: "Team Tracker",
