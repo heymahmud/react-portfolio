@@ -10,17 +10,17 @@ const Hero = () => {
                     <div className="col-md-12 hero-content">
                         <div className="follow-links">
                             <ul>
-                                <li><a target="_blank" rel="noreferrer norefferrer" href="https://github.com/hellomostafa"> <i class="fab fa-github"></i></a></li>
-                                <li><a target="_blank" rel="noreferrer norefferrer" href="https://www.linkedin.com/in/hellomostafa/"> <i class="fab fa-linkedin-in"></i></a></li>
-                                {/* <li><a target="_blank" rel="noreferrer norefferrer" href="https://medium.com/@iammostafa76"><i className="fab fa-medium-m"></i> </a></li>
-                                <li><a target="_blank" rel="noreferrer norefferrer" href="https://twitter.com/iammostafa76"> <i className="fab fa-twitter"></i></a></li> */}
+                                <li><a target="_blank" rel="noreferrer norefferrer" href="https://github.com/heymahmud"> <i class="fab fa-github"></i></a></li>
+                                <li><a target="_blank" rel="noreferrer norefferrer" href="https://www.linkedin.com/in/mostafamahmud/"> <i class="fab fa-linkedin-in"></i></a></li>
+                                {/* <li><a target="_blank" rel="noreferrer norefferrer" href="https://medium.com/@iammostafa76"><i className="fab fa-medium-m"></i> </a></li>*/}
+                                <li><a target="_blank" rel="noreferrer norefferrer" href="https://twitter.com/mostafamahmud_"> <i className="fab fa-x-twitter"></i></a></li> 
                             </ul>
                             <p className="fw-bold text-color2 bg-color2 p-1 px-3">FOLLOW ME</p>
                         </div>
                         <div className="hero-text">
                             <h5>Hello! I am</h5>
                             <h1>Mostafa Mahmud</h1>
-                            <h4>Front end Developer</h4>
+                            <h4> Front end Developer <span class="separator">•</span>  Shopify Expert <span className="soonDev">( Being Developer )</span></h4>
 
                             <div className="action pt-4">
                                 <a target="_blank"  rel="noreferrer noreferrer" href="https://github.com/iammostafa76/react-portfolio/blob/main/src/Utility/MostafaMahmud-FrontEndDeveloper.pdf">

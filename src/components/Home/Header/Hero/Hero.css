@@ -60,7 +60,14 @@
 .hero-content h5 {
     line-height: .8;
 }
+.separator {
+    margin: 0px 10px;
+}
 
+.soonDev {
+    color: #66FCF1;
+    font-size: 15px
+}
 @media only screen and (max-width: 767px) {
 
     .hero-content {

@@ -16,7 +16,7 @@
     margin-top: 18px;
 }
 .about-img img {
-    /* max-height: 280px; */
+    max-height: 520px;
     transition: all .8s ease-in-out;
 }
 .about-img img:hover {
@@ -27,5 +27,9 @@
     .about {
         display: flex;
         flex-direction: column-reverse;
+    }
+    .about-img img {
+        max-height: 380px;
+        transition: all .8s ease-in-out;
     }
 }
