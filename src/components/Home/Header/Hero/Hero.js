@@ -23,9 +23,12 @@ const Hero = () => {
                             <h4> Front end Developer <span class="separator">•</span>  Shopify Expert <span className="soonDev">( Being Developer )</span></h4>
 
                             <div className="action pt-4">
-                                <a target="_blank"  rel="noreferrer noreferrer" href="https://github.com/iammostafa76/react-portfolio/blob/main/src/Utility/MostafaMahmud-FrontEndDeveloper.pdf">
-                                    <button className="me-3 resume button">Get Resume</button>
+                                <a target="_blank"  rel="noreferrer noreferrer" href="https://calendly.com/mostafa-mahmud/book">
+                                    <button className="me-3 resume button">Book Your Call</button>
                                 </a>
+                                {/* <a target="_blank"  rel="noreferrer noreferrer" href="https://github.com/iammostafa76/react-portfolio/blob/main/src/Utility/MostafaMahmud-FrontEndDeveloper.pdf">
+                                    <button className="me-3 resume button">Get Resume</button>
+                                </a> */}
                                 
                                 <a href="#about" rel="noreferrer noreferrer">
                                     <button className="button" >About Me</button>

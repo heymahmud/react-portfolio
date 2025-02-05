@@ -46,9 +46,12 @@ const About = () => {
                         <p>I specialize in HTML/CSS and JavaScript on the front end. However, I'm fairly comfortable with ReactJS, NodeJS, ExpressJS, MongoDB, Firebase, WordPress, and Shopify.</p> */}
 
                         <div className="action pt-3">
-                            <a target="_blank" rel="noreferrer noreferrer" href="https://github.com/iammostafa76/react-portfolio/blob/main/src/Utility/MostafaMahmud-FrontEndDeveloper.pdf">
-                                <button className="button resume me-3">Get Resume</button>
+                            <a target="_blank" rel="noreferrer noreferrer" href="https://calendly.com/mostafa-mahmud/book">
+                                <button className="button resume me-3">Book Your Call</button>
                             </a>
+                            {/* <a target="_blank" rel="noreferrer noreferrer" href="https://github.com/iammostafa76/react-portfolio/blob/main/src/Utility/MostafaMahmud-FrontEndDeveloper.pdf">
+                                <button className="button resume me-3">Get Resume</button>
+                            </a> */}
                             
                             <a href="#skill">
                                 <button className="button">My Skills</button>
