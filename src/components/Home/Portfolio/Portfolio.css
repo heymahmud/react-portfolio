@@ -1,17 +1,113 @@
 .portfolio {
     display: flex;
     flex-wrap: wrap;
-    margin-left: -17px
+    margin-left: -15px;
+    margin-right: -15px
 }
 .single-port {
     background-color: #1F2833;
     border-radius: 8px;
     width: 30.5%;
-    margin: 1rem;
+    margin: 0rem 1rem 1rem 1rem;
 }
 .single-port img {
+    width: 100%;
     border-radius: 8px 8px 0px 0px;
 }
+.shopifypro {
+    width: 100%;
+    display: flex;
+    gap: 32px;
+    row-gap: 10px;
+}
+.single-port2 {
+    background:url('https://i.ibb.co.com/yn8FWRZj/wellbel-PC.png');
+    background-size: cover;
+    border-radius: 8px 8px 0px 0px;
+    height: 300px;
+    width: 100%;
+    transition: ease-in-out 9s;
+    -webkit-transition: ease-in-out 9s;
+    -moz-transition: ease-in-out 9s;
+    -ms-transition: ease-in-out 9s;
+    -o-transition: ease-in-out 9s;
+    background-position: top;
+}
+.single-port2:hover {
+    background-position: bottom;
+}
+.single-port4 {
+    background:url('https://i.ibb.co.com/SXzw5Yt8/Nu-Mind-PC.png');
+    background-size: cover;
+    border-radius: 8px 8px 0px 0px;
+    height: 300px;
+    width: 100%;
+    transition: ease-in-out 9s;
+    -webkit-transition: ease-in-out 9s;
+    -moz-transition: ease-in-out 9s;
+    -ms-transition: ease-in-out 9s;
+    -o-transition: ease-in-out 9s;
+    background-position: top;
+}
+.single-port4:hover {
+    background-position: bottom;
+}
+.single-port3 {
+    background:url('https://i.ibb.co.com/h1JkYd5H/abstrax.png');
+    background-size: cover;
+    border-radius: 8px 8px 0px 0px;
+    height: 300px;
+    width: 100%;
+    transition: ease-in-out 9s;
+    -webkit-transition: ease-in-out 9s;
+    -moz-transition: ease-in-out 9s;
+    -ms-transition: ease-in-out 9s;
+    -o-transition: ease-in-out 9s;
+    background-position: top;
+}
+.single-port3:hover {
+    background-position: bottom;
+}
+.proImg {
+    /*background:;
+    url('https://i.ibb.co.com/yn8FWRZj/wellbel-PC.png');
+    */background-size: cover;
+    
+}
+
+.mainS {
+    width: 31.2%;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    position: relative;
+}
+.slogo {
+    width:60px;
+    height: 60px;
+    position: absolute;
+    right: 5px;
+    bottom: 45px;
+    background-color: #1F2833;
+    padding: 10px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.pd {
+    background-color: #1F2833;
+    border-radius: 0px 0px 8px 8px;
+    -webkit-border-radius: 0px 0px 8px 8px;
+    -moz-border-radius: 0px 0px 8px 8px;
+    -ms-border-radius: 0px 0px 8px 8px;
+    -o-border-radius: 0px 0px 8px 8px;
+}
+
 .portfolio-details h4 {
     color: #66FCF1;
 }
@@ -27,8 +123,22 @@
     color: yellow
 }
 
+/* .sbg {
+    background-color: #160101b4;
+    color: rgb(228, 214, 214) !important;
+    padding: 2px 6px 4px 6px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+} */
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .single-port {
+        width: 45%;
+    }
+    .mainS {
         width: 45%;
     }
 }
@@ -37,9 +147,30 @@
     .single-port {
         width: 100%;
     }
-}
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-    .single-port {
+    .mainS {
         width: 100%;
+    }
+    .shopifypro {
+        margin-right: 12px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .single-port2 {
+        width: 100%;
+    }
+    .mainS {
+        width: 100%;
+    }
+    .shopifypro {
+        margin-right: 12px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
     }
 }

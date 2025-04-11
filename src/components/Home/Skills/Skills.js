@@ -146,6 +146,28 @@ const Skills = () => {
                             </div>
                         </div>
                     </div>
+                    <div className="col-md-6">
+                        <div className="skill bg-color2 rounded">
+                            <div className="progress-title text-color2">
+                                <h4>Shopify</h4>
+                                <p className="percent">95%</p>
+                            </div>
+                            <div className="progress">
+                                <div style={{width:'95%'}} className="progress-bar bg-warning " role="progressbar"  aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-md-6">
+                        <div className="skill bg-color2 rounded">
+                            <div className="progress-title text-color2">
+                                <h4>Liquid</h4>
+                                <p className="percent">70%</p>
+                            </div>
+                            <div className="progress">
+                                <div style={{width:'70%'}} className="progress-bar bg-warning " role="progressbar"  aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
                     
                 </div>
             </div>
